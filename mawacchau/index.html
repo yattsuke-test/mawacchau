@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>まほちゃん</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="maho" data-playing="false"></div>
+      <div class="btn-wrapper">
+        <button class="playbutton" id="btn0" data-playing="false">
+          <span>1/1</span>
+        </button>
+        <button class="playbutton" id="btn1" data-playing="false">
+          <span>1/2</span>
+        </button>
+        <button class="playbutton" id="btn2" data-playing="false">
+          <span>1/4</span>
+        </button>
+        <button class="playbutton" id="btn3" data-playing="false">
+          <span>1/8</span>
+        </button>
+      </div>
+      <div class="ctl-wrapper">
+        <div class="ctl">
+          <p>音量</p>
+          <input type="range" id="volume" min="0" max="2" value="1" step="0.01">
+        </div>
+        <div class="ctl">
+          <p>速度</p>
+          <input type="range" id="speed" min="0" max="2" value="1" step="0.01">
+        </div>
+        <button id="default"><span>デフォルトに戻す</span></button>
+      </div>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+    <a href="http://yattsuke-test.github.io/mawacchau/">
+      <img src="https://ga-beacon.appspot.com/UA-189781424-1/yattsuke-test.github.io/mawacchau/?pixel" />
+    </a>
+  </body>
+</html>

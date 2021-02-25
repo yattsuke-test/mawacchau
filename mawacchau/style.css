@@ -1,0 +1,75 @@
+html {
+  touch-action: manipulation;
+}
+
+.container {
+  width: 540px;
+  height: 540px;
+  margin: 0 auto;
+}
+
+#maho {
+  width: 80%;
+  height: 80%;
+  background-image: url('assets/1613201457175.jpg');
+  background-size: cover;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.btn-wrapper {
+  width: 100%;
+  height: 10%;
+  margin: 1% auto;
+}
+
+.playbutton {
+  width: 25%;
+  margin: 0 auto;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  font-size: 27px;
+  padding: 5px 0;
+  background-size: contain;
+  background-color: plum;
+  border: 1px solid mediumorchid;
+  border-radius: 7px;
+  float: left;
+  box-shadow: 0 5px mediumorchid;
+}
+
+button[data-playing="true"] {
+  box-shadow: none;
+  position: relative;
+  top: 5px;
+}
+
+.ctl-wrapper {
+  width: 100%;
+  height: 20%;
+  margin: 0 auto;
+}
+
+.ctl {
+  width: 50%;
+  float: left;
+}
+
+.ctl p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.ctl input {
+  width: 90%;
+}
+
+#default {
+  background-color: whitesmoke;
+  border: 1px solid dimgray;
+  color: black;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
